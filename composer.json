@@ -1,0 +1,26 @@
+{
+    "name": "tumtum/symfony-twig-ray",
+    "description": "SymfonyTwigRay extends the Twig templating engine in a Symfony project by adding ray() debugging functions.",
+    "type": "symfony-bundle",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "TumTum\\SymfonyTwigRay\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Tobias Matthaiou",
+            "email": "=225997+TumTum@users.noreply.github.com"
+        }
+    ],
+    "require-dev": {
+        "symfony/symfony": "*",
+        "spatie/ray": "*"
+    },
+    "extra": {
+        "symfony": {
+            "bundle": "TumTum\\SymfonyTwigRay\\SymfonyTwigRayBundle"
+        }
+    }
+}
